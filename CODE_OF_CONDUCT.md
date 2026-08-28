@@ -1,6 +1,7 @@
 # iAIMS Code of Conduct
 
 Also see the [Code of Conduct on the iAIMS website](https://iaims.org/code-of-conduct/)
+
 The iAIMS community grows strongest when people feel welcome, respected, and encouraged to share what they know. These guidelines describe how we work together to build a supportive and inspiring space for advancing artificial intelligence in multiple sclerosis research and care.
 
 ## 1. Be welcoming and considerate
