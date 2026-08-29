@@ -42,6 +42,7 @@ We welcome contributions from everyone—whether you are writing code, explainin
 ## Content Guidelines
 
 To maintain quality and clarity across diverse disciplines:
+
 * **Target Clear Communication:** Remember our audience spans both clinical and technical backgrounds. Define complex terms or link to the internal Glossary.
 * **Cite Sources:** Always cite peer-reviewed research, public datasets, or official guidelines when introducing scientific facts.
 * **Maintain Privacy:** **Never** upload, commit, or link to patient data or proprietary/restricted clinical records.
