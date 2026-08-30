@@ -1,4 +1,4 @@
 site_name: iAIMS Wiki
 repo_url: https://github.com/i-AIMS/wiki/
 theme:
-  name: readthedocs
+  name: material
