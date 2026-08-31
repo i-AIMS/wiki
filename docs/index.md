@@ -7,6 +7,8 @@ Multiple Sclerosis**.
 
 This wiki brings together researchers, clinicians, data scientists, software engineers, and patient advocates worldwide to accelerate AI-driven advancements in MS research, diagnosis, treatment, and care.
 
+Click [here](https://iaims.org) to go back to our website.
+
 ---
 
 ## What to Expect
