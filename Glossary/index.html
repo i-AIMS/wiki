@@ -1,2121 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-        <link rel="prev" href="..">
-      
-      
-        <link rel="next" href="ms/">
-      
-      
+    
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>AI glossary - iAIMS Wiki</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
         
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
-    
-    
-      
-        <title>AI glossary - iAIMS Wiki</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
         
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
     
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
 
     
-    
-  </head>
-  
-  
-    <body dir="ltr">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#ai-glossary" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
 
-  
+     
+</head>
 
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="iAIMS Wiki" class="md-header__button md-logo" aria-label="iAIMS Wiki" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+<body>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            iAIMS Wiki
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             
-              AI glossary
+
+            <!-- Main title -->
+
             
-          </span>
+              <a class="navbar-brand" href="..">iAIMS Wiki</a>
+            
         </div>
-      </div>
-    </div>
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-      
-      
-        <label class="md-header__button md-icon" for="__search">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        </label>
-        <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Welcome!</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Glossary <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="./">AI glossary</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="ms/">MS glossary</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="..">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="ms/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/i-AIMS/wiki/edit/master/docs/Glossary/index.md"><i class="fab fa-github"></i> Edit on GitHub</a>
+                    </li>
+            </ul>
         </div>
-      </div>
     </div>
-  </div>
 </div>
-      
-    
-    
-      <div class="md-header__source">
-        <a href="https://github.com/i-AIMS/wiki/" title="Go to repository" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
-  </div>
-  <div class="md-source__repository">
-    GitHub
-  </div>
-</a>
-      </div>
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
 
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="iAIMS Wiki" class="md-nav__button md-logo" aria-label="iAIMS Wiki" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    iAIMS Wiki
-  </label>
-  
-    <div class="md-nav__source">
-      <a href="https://github.com/i-AIMS/wiki/" title="Go to repository" class="md-source" data-md-component="source">
-  <div class="md-source__icon md-icon">
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
-  </div>
-  <div class="md-source__repository">
-    GitHub
-  </div>
-</a>
-    </div>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Welcome!
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
+    <div class="container">
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Glossary
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Glossary
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#ai-glossary">AI glossary</a></li>
+            <li class="second-level"><a href="#adaptive-learning">Adaptive Learning</a></li>
                 
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI glossary
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI glossary
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#adaptive-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Adaptive Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agentic-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agentic AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#anthropomorphism" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Anthropomorphism
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Algorithm
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-general-intelligence-agi" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial General Intelligence (AGI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-intelligence-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial Intelligence (AI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-narrow-intelligence-ani" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial Narrow Intelligence (ANI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#autonomy" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Autonomy
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bias" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bias
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biometric-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Biometric Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#black-boxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Black Boxes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#black-box-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Black-Box Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#chat-based-generative-pre-trained-transformer-chatgpt-models" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Chat-based generative pre-trained transformer (ChatGPT) models
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#classification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Classification
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#computer-vision" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Computer Vision
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conformity-assessment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conformity Assessment
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#continuous-learning-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Continuous Learning System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#critical-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Critical AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Governance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-minimisation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Minimisation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deep-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deep Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deepfake" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deepfake
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#emergent-behaviour" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Emergent Behaviour
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#explainability" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Explainability
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ethical-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ethical AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fairness" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Fairness
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#federated-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Federated Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#foundation-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Foundation Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#generative-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Generative AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Governance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hallucination" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hallucination
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#high-risk-ai-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        High-Risk AI System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#human-centered-perspective" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Human-centered Perspective
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#human-oversight" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Human Oversight
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#impact-assessment-ai-impact-assessment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Impact Assessment (AI Impact Assessment)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Inference
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intelligence-augmentation-ia" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intelligence Augmentation (IA)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intelligent-tutoring-systems-its" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intelligent Tutoring Systems (ITS)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretable-machine-learning-iml" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interpretable Machine Learning (IML)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretability" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interpretability
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#large-language-model-llm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Large Language Model (LLM)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lifecycle-ai-system-lifecycle" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lifecycle (AI System Lifecycle)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#machine-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Machine Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-card" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model Card
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#multimodal-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Multimodal System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-language-processing-nlp" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Natural Language Processing (NLP)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#neural-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Neural Network
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opacity" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opacity
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#output" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Output
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#personal-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Personal Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#profiling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Profiling
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prompt-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prompt Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reinforcement-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reinforcement Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#risk-ai-related-risk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Risk (AI-Related Risk)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robots" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Robots
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robustness" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Robustness
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#safety-ai-safety" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Safety (AI Safety)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#self-attention-mechanism" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Self-attention mechanism
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supervised-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supervised Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#synthetic-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Synthetic Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#swarms" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Swarms
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#training-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Training Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transformer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transformer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transparency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transparency
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trustworthy-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Trustworthy AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#turing-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Turing Test
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unsupervised-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Unsupervised Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-of-an-ai-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        User (of an AI System)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-experience-designuser-interface-design-uxui" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        User Experience Design/User Interface Design (UX/UI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#validation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Validation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#vendor-provider" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Vendor / Provider
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#xai-explainable-ai-or-eml-explainable-machine-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        XAI (Explainable AI) or EML (Explainable Machine Learning)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#zero-shot-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Zero-Shot Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
+            <li class="second-level"><a href="#agentic-ai">Agentic AI</a></li>
+                
+            <li class="second-level"><a href="#anthropomorphism">Anthropomorphism</a></li>
+                
+            <li class="second-level"><a href="#algorithm">Algorithm</a></li>
+                
+            <li class="second-level"><a href="#artificial-general-intelligence-agi">Artificial General Intelligence (AGI)</a></li>
+                
+            <li class="second-level"><a href="#artificial-intelligence-ai">Artificial Intelligence (AI)</a></li>
+                
+            <li class="second-level"><a href="#artificial-narrow-intelligence-ani">Artificial Narrow Intelligence (ANI)</a></li>
+                
+            <li class="second-level"><a href="#autonomy">Autonomy</a></li>
+                
+            <li class="second-level"><a href="#bias">Bias</a></li>
+                
+            <li class="second-level"><a href="#biometric-data">Biometric Data</a></li>
+                
+            <li class="second-level"><a href="#black-boxes">Black Boxes</a></li>
+                
+            <li class="second-level"><a href="#black-box-model">Black-Box Model</a></li>
+                
+            <li class="second-level"><a href="#chat-based-generative-pre-trained-transformer-chatgpt-models">Chat-based generative pre-trained transformer (ChatGPT) models</a></li>
+                
+            <li class="second-level"><a href="#classification">Classification</a></li>
+                
+            <li class="second-level"><a href="#computer-vision">Computer Vision</a></li>
+                
+            <li class="second-level"><a href="#conformity-assessment">Conformity Assessment</a></li>
+                
+            <li class="second-level"><a href="#continuous-learning-system">Continuous Learning System</a></li>
+                
+            <li class="second-level"><a href="#critical-ai">Critical AI</a></li>
+                
+            <li class="second-level"><a href="#data">Data</a></li>
+                
+            <li class="second-level"><a href="#data-governance">Data Governance</a></li>
+                
+            <li class="second-level"><a href="#data-minimisation">Data Minimisation</a></li>
+                
+            <li class="second-level"><a href="#deep-learning">Deep Learning</a></li>
+                
+            <li class="second-level"><a href="#deepfake">Deepfake</a></li>
+                
+            <li class="second-level"><a href="#emergent-behaviour">Emergent Behaviour</a></li>
+                
+            <li class="second-level"><a href="#explainability">Explainability</a></li>
+                
+            <li class="second-level"><a href="#ethical-ai">Ethical AI</a></li>
+                
+            <li class="second-level"><a href="#evaluation">Evaluation</a></li>
+                
+            <li class="second-level"><a href="#fairness">Fairness</a></li>
+                
+            <li class="second-level"><a href="#federated-learning">Federated Learning</a></li>
+                
+            <li class="second-level"><a href="#foundation-model">Foundation Model</a></li>
+                
+            <li class="second-level"><a href="#generative-ai">Generative AI</a></li>
+                
+            <li class="second-level"><a href="#governance">Governance</a></li>
+                
+            <li class="second-level"><a href="#hallucination">Hallucination</a></li>
+                
+            <li class="second-level"><a href="#high-risk-ai-system">High-Risk AI System</a></li>
+                
+            <li class="second-level"><a href="#human-centered-perspective">Human-centered Perspective</a></li>
+                
+            <li class="second-level"><a href="#human-oversight">Human Oversight</a></li>
+                
+            <li class="second-level"><a href="#impact-assessment-ai-impact-assessment">Impact Assessment (AI Impact Assessment)</a></li>
+                
+            <li class="second-level"><a href="#inference">Inference</a></li>
+                
+            <li class="second-level"><a href="#intelligence-augmentation-ia">Intelligence Augmentation (IA)</a></li>
+                
+            <li class="second-level"><a href="#intelligent-tutoring-systems-its">Intelligent Tutoring Systems (ITS)</a></li>
+                
+            <li class="second-level"><a href="#interpretable-machine-learning-iml">Interpretable Machine Learning (IML)</a></li>
+                
+            <li class="second-level"><a href="#interpretability">Interpretability</a></li>
+                
+            <li class="second-level"><a href="#large-language-model-llm">Large Language Model (LLM)</a></li>
+                
+            <li class="second-level"><a href="#lifecycle-ai-system-lifecycle">Lifecycle (AI System Lifecycle)</a></li>
+                
+            <li class="second-level"><a href="#machine-learning">Machine Learning</a></li>
+                
+            <li class="second-level"><a href="#model">Model</a></li>
+                
+            <li class="second-level"><a href="#model-card">Model Card</a></li>
+                
+            <li class="second-level"><a href="#multimodal-system">Multimodal System</a></li>
+                
+            <li class="second-level"><a href="#natural-language-processing-nlp">Natural Language Processing (NLP)</a></li>
+                
+            <li class="second-level"><a href="#neural-network">Neural Network</a></li>
+                
+            <li class="second-level"><a href="#opacity">Opacity</a></li>
+                
+            <li class="second-level"><a href="#output">Output</a></li>
+                
+            <li class="second-level"><a href="#personal-data">Personal Data</a></li>
+                
+            <li class="second-level"><a href="#profiling">Profiling</a></li>
+                
+            <li class="second-level"><a href="#prompt-engineering">Prompt Engineering</a></li>
+                
+            <li class="second-level"><a href="#reinforcement-learning">Reinforcement Learning</a></li>
+                
+            <li class="second-level"><a href="#risk-ai-related-risk">Risk (AI-Related Risk)</a></li>
+                
+            <li class="second-level"><a href="#robots">Robots</a></li>
+                
+            <li class="second-level"><a href="#robustness">Robustness</a></li>
+                
+            <li class="second-level"><a href="#safety-ai-safety">Safety (AI Safety)</a></li>
+                
+            <li class="second-level"><a href="#self-attention-mechanism">Self-attention mechanism</a></li>
+                
+            <li class="second-level"><a href="#supervised-learning">Supervised Learning</a></li>
+                
+            <li class="second-level"><a href="#synthetic-data">Synthetic Data</a></li>
+                
+            <li class="second-level"><a href="#swarms">Swarms</a></li>
+                
+            <li class="second-level"><a href="#training-data">Training Data</a></li>
+                
+            <li class="second-level"><a href="#transformer">Transformer</a></li>
+                
+            <li class="second-level"><a href="#transparency">Transparency</a></li>
+                
+            <li class="second-level"><a href="#trustworthy-ai">Trustworthy AI</a></li>
+                
+            <li class="second-level"><a href="#turing-test">Turing Test</a></li>
+                
+            <li class="second-level"><a href="#unsupervised-learning">Unsupervised Learning</a></li>
+                
+            <li class="second-level"><a href="#user-of-an-ai-system">User (of an AI System)</a></li>
+                
+            <li class="second-level"><a href="#user-experience-designuser-interface-design-uxui">User Experience Design/User Interface Design (UX/UI)</a></li>
+                
+            <li class="second-level"><a href="#validation">Validation</a></li>
+                
+            <li class="second-level"><a href="#vendor-provider">Vendor / Provider</a></li>
+                
+            <li class="second-level"><a href="#xai-explainable-ai-or-eml-explainable-machine-learning">XAI (Explainable AI) or EML (Explainable Machine Learning)</a></li>
+                
+            <li class="second-level"><a href="#zero-shot-learning">Zero-Shot Learning</a></li>
+                
     </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ms/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    MS glossary
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#adaptive-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Adaptive Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#agentic-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Agentic AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#anthropomorphism" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Anthropomorphism
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#algorithm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Algorithm
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-general-intelligence-agi" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial General Intelligence (AGI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-intelligence-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial Intelligence (AI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#artificial-narrow-intelligence-ani" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Artificial Narrow Intelligence (ANI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#autonomy" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Autonomy
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bias" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Bias
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biometric-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Biometric Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#black-boxes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Black Boxes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#black-box-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Black-Box Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#chat-based-generative-pre-trained-transformer-chatgpt-models" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Chat-based generative pre-trained transformer (ChatGPT) models
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#classification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Classification
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#computer-vision" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Computer Vision
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conformity-assessment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conformity Assessment
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#continuous-learning-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Continuous Learning System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#critical-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Critical AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Governance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data-minimisation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Data Minimisation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deep-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deep Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#deepfake" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Deepfake
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#emergent-behaviour" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Emergent Behaviour
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#explainability" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Explainability
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ethical-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ethical AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fairness" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Fairness
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#federated-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Federated Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#foundation-model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Foundation Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#generative-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Generative AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Governance
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hallucination" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hallucination
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#high-risk-ai-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        High-Risk AI System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#human-centered-perspective" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Human-centered Perspective
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#human-oversight" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Human Oversight
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#impact-assessment-ai-impact-assessment" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Impact Assessment (AI Impact Assessment)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Inference
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intelligence-augmentation-ia" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intelligence Augmentation (IA)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#intelligent-tutoring-systems-its" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Intelligent Tutoring Systems (ITS)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretable-machine-learning-iml" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interpretable Machine Learning (IML)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interpretability" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interpretability
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#large-language-model-llm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Large Language Model (LLM)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lifecycle-ai-system-lifecycle" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lifecycle (AI System Lifecycle)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#machine-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Machine Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-card" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model Card
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#multimodal-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Multimodal System
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#natural-language-processing-nlp" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Natural Language Processing (NLP)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#neural-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Neural Network
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#opacity" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Opacity
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#output" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Output
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#personal-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Personal Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#profiling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Profiling
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#prompt-engineering" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prompt Engineering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#reinforcement-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reinforcement Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#risk-ai-related-risk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Risk (AI-Related Risk)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robots" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Robots
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#robustness" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Robustness
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#safety-ai-safety" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Safety (AI Safety)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#self-attention-mechanism" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Self-attention mechanism
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supervised-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supervised Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#synthetic-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Synthetic Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#swarms" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Swarms
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#training-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Training Data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transformer" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transformer
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#transparency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Transparency
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trustworthy-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Trustworthy AI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#turing-test" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Turing Test
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#unsupervised-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Unsupervised Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-of-an-ai-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        User (of an AI System)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#user-experience-designuser-interface-design-uxui" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        User Experience Design/User Interface Design (UX/UI)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#validation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Validation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#vendor-provider" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Vendor / Provider
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#xai-explainable-ai-or-eml-explainable-machine-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        XAI (Explainable AI) or EML (Explainable Machine Learning)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#zero-shot-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Zero-Shot Learning
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-  
-  
-
+</div></div>
+        <div class="col-md-9" role="main">
 
 <h1 id="ai-glossary">AI glossary</h1>
 <p>The definitions in this section are reproduced verbatim from <strong>[The AI Glossary of University College Dublin]
@@ -2392,61 +558,105 @@ researchers recommend the use of interpretable models. See also: <a href="#expla
 Machine Learning</a>, <a href="#black-boxes">Black Boxes</a>, <a href="#black-box-model">Black-Box Model</a>.</p>
 <h2 id="zero-shot-learning">Zero-Shot Learning</h2>
 <p>Capability of a model to perform tasks or recognise classes it was not explicitly trained on, using generalisation 
-from prior knowledge. See also: <a href="#large-language-model-llm">Large Language Model (LLM)</a>, <a href="#foundation-model">Foundation Model</a>.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
-            </div>
-          
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
+from prior knowledge. See also: <a href="#large-language-model-llm">Large Language Model (LLM)</a>, <a href="#foundation-model">Foundation Model</a>.</p></div>
         
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    
-      
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
-      
-    
-  </body>
+    </body>
+
 </html>
