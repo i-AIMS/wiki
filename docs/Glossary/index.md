@@ -1,6 +1,5 @@
 # AI glossary
-The definitions in this section are reproduced verbatim from **[The AI Glossary of University College Dublin]
-(https://libguides.ucd.ie/GENAI/Glossary)** on 30 August 2026.
+The definitions in this section are reproduced verbatim from **[The AI Glossary of University College Dublin](https://libguides.ucd.ie/GENAI/Glossary)** on 30 August 2026.
 
 ![alt text](https://www.ucd.ie/library/t4media/ucdlibrary-2018-logo.png "UCD Library")
 
