@@ -8,10 +8,10 @@
     
     
     
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>iAIMS Wiki</title>
+    <title>Tools and Principles - iAIMS Wiki</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="/css/base.min.css" rel="stylesheet">
-    <link href="/css/cinder.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -59,7 +59,7 @@
             <!-- Main title -->
 
             
-              <a class="navbar-brand" href="/.">iAIMS Wiki</a>
+              <a class="navbar-brand" href="..">iAIMS Wiki</a>
             
         </div>
 
@@ -70,7 +70,7 @@
                 
                 
                     <li >
-                        <a href="/.">Welcome!</a>
+                        <a href="..">Welcome!</a>
                     </li>
                 
                 
@@ -81,13 +81,13 @@
                         
                             
 <li >
-    <a href="/Glossary/">AI glossary</a>
+    <a href="../Glossary/">AI glossary</a>
 </li>
 
                         
                             
 <li >
-    <a href="/Glossary/ms/">MS glossary</a>
+    <a href="../Glossary/ms/">MS glossary</a>
 </li>
 
                         
@@ -96,19 +96,19 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Open Science <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li >
-    <a href="/Open_Science/">Tools and Principles</a>
+<li class="active">
+    <a href="./">Tools and Principles</a>
 </li>
 
                         
                             
 <li >
-    <a href="/Open_Science/tutorials/">Tutorials</a>
+    <a href="tutorials/">Tutorials</a>
 </li>
 
                         
@@ -124,8 +124,18 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
+                    <li >
+                        <a rel="prev" href="../Glossary/ms/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="tutorials/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
                     <li>
-                        <a href="https://github.com/i-AIMS/wiki/"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://github.com/i-AIMS/wiki/edit/master/docs/Open_Science/index.md"><i class="fab fa-github"></i> Edit on GitHub</a>
                     </li>
             </ul>
         </div>
@@ -134,16 +144,29 @@
 
     <div class="container">
         
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#tools-and-principles">Tools and Principles</a></li>
+            <li class="second-level"><a href="#git">Git</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-        <p style="text-align: center"><a href="/">Home</a></p>
-      </div>
-    </div>
-
-
+<h1 id="tools-and-principles">Tools and Principles</h1>
+<p>One of the core values of iAIMS is open science research. Especially as AI is at risk of fuelling a new reproducibility crisis like we have seen in psychology (cfr. this <a href="https://www.nature.com/articles/d41586-023-03817-6">Nature article</a>), it is important to ensure reproducibility of our experiments.
+Just some examples of why AI research might not be reproducible:</p>
+<ul>
+<li>Different test sets are used by different studies</li>
+<li>Retraining a model with all the same configurations and resources probably results in a different model as many optimisation functions rely on a degree of randomness (e.g. <a href="https://www.geeksforgeeks.org/machine-learning/ml-stochastic-gradient-descent-sgd/">Stochastic Gradient Descent</a>)</li>
+<li>Data sets are often not open source, or not even with conditional access.</li>
+</ul>
+<p>To maximise reproducibility, Open Science is a great leap forward! In this Wiki Page, we offer practical guidance.</p>
+<h2 id="git">Git</h2>
+<p>Git has become the bread and the butter of code version controlling and is widely used to publish code alongside a research paper.</p></div>
+        
+        
     </div>
 
     
@@ -161,7 +184,7 @@
       </footer>
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -169,10 +192,10 @@
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "/"</script>
+    <script>var base_url = ".."</script>
     
-    <script src="/js/base.js"></script>
-    <script src="/search/main.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
